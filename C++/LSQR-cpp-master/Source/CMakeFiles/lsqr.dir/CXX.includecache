@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsmrBase.cxx
+lsmrBase.h
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsmrBase.h
+algorithm
+-
+cmath
+-
+iostream
+-
+numeric
+-
+vector
+-
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsmrBase.h
+iosfwd
+-
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsmrDense.cxx
+lsmrDense.h
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsmrDense.h
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsmrDense.h
+lsmrBase.h
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsmrBase.h
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsqrBase.cxx
+lsqrBase.h
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsqrBase.h
+cmath
+-
+iostream
+-
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsqrBase.h
+iosfwd
+-
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsqrDense.cxx
+lsqrDense.h
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsqrDense.h
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsqrDense.h
+lsqrBase.h
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Source/lsqrBase.h
+

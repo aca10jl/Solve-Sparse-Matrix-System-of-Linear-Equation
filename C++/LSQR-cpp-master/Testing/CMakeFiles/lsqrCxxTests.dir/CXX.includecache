@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Testing/lsmrTest2.cxx
+lsmrDense.h
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Testing/lsmrDense.h
+iostream
+-
+cstdlib
+-
+cmath
+-
+fstream
+-
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Testing/lsqrCxxTests.cxx
+ctype.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Testing/lsqrTest1.cxx
+lsqrDense.h
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Testing/lsqrDense.h
+iostream
+-
+cstdlib
+-
+cmath
+-
+
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Testing/lsqrTest2.cxx
+lsqrDense.h
+/home/tuzaza/Dropbox/Working Directory/C++/LSQR-cpp-master/Testing/lsqrDense.h
+iostream
+-
+cstdlib
+-
+cmath
+-
+fstream
+-
+
+Source/lsmrBase.h
+iosfwd
+-
+
+Source/lsmrDense.h
+lsmrBase.h
+Source/lsmrBase.h
+
+Source/lsqrBase.h
+iosfwd
+-
+
+Source/lsqrDense.h
+lsqrBase.h
+Source/lsqrBase.h
+

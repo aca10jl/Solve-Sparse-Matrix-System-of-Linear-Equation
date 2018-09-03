@@ -1,0 +1,3 @@
+sudo apt install csh
+sudo apt install lcov
+sudo apt install valgrind
